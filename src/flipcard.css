@@ -1,0 +1,1108 @@
+.div1_gym
+{
+ margin:50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid black;
+ 
+}
+.gym_box
+{
+  padding-top:50px; 
+}
+
+
+
+.img{
+width:50%;
+margin-top:50px;
+margin-bottom:auto;
+
+
+}
+.chest_box_1{
+  background-color:black;
+}
+.video{
+  height: 20px;
+}
+.title_gym{
+font-size: 2rem;
+padding:50px;
+}
+.data{
+  text-align: left;
+  font-size: 1.3rem;
+  margin-top:30px;
+
+}
+.textdata
+{
+  margin-bottom:70px;
+}
+.video
+{
+padding-left:100px;
+}
+.link_gym
+{
+position:fixed;
+background-color:#9ED9CCFF;
+color:white;
+margin-left:10px;
+margin-top:80px;
+
+
+}
+.path{
+
+  text-decoration: none;
+  color:white;
+  font-size: 1.3rem;
+display: block;
+margin-top:0;
+padding:10px;
+text-align: center;
+margin:5px;
+
+}
+.path:hover{
+  background-color:#183330;
+}
+.popupimg{
+    width: 70%;
+    
+    margin:auto;
+    padding:20px;
+    
+  }
+  .popupdiv{
+   
+
+  background-color:#183330;
+  width:100%;
+  margin-left:0;
+  margin-top:50px;
+  background-image: url("https://media2.giphy.com/media/4bjIKBOWUnVPICCzJc/giphy.gif?cid=ecf05e47eachzgqops9tgfqo3jdy4ag5dg0nc5q4bm53phcb&rid=giphy.gif&ct=g");
+padding:150px;  
+}
+  .popup{
+    color:white;
+    font-family: 'Italianno', cursive;
+margin:auto;
+
+font-weight: bolder;
+margin-bottom:0px;
+font-size: 4rem;
+background-color:black;
+
+color:turquoise;
+text-align: center;
+
+  }
+  .dropdown
+  {
+  color:black;
+  width:50%;
+  margin:auto;
+  
+  }
+  .div_insert_data
+  {
+      padding-top:100px;
+     
+      background-size: 100%;
+      background-repeat: no-repeat;
+      padding-bottom :100px;
+      
+    }
+  .dropdown
+  {
+    margin-bottom: 50px;
+    width:60%;
+    text-align: center;
+    margin-top:100px;
+    font-family: 'Cormorant Garamond', serif;
+font-size: 1.2rem;
+letter-spacing: 0.2rem;
+
+  }
+  
+  .input1
+  {
+    display: block;
+   color:black;
+    margin:50px;
+    margin-left:auto;
+    margin-right:auto;
+    width:60%;
+  
+    text-align: center;
+height:35px;
+border: 0px;
+font-family: 'Cormorant Garamond', serif;
+font-size: 1.2rem;
+outline:0px;
+letter-spacing: 0.2rem;
+
+  }
+  .input1:hover{
+    background-color:#f29d8f;
+    color:white;
+    border:0;
+    outline:0px;
+  }
+  .button1
+  {
+    
+    display: flex;
+    margin:auto;
+    width:29%;
+    text-align: center;
+  padding:5px;
+    border: 0px;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+font-size: 1.2rem;
+letter-spacing: 0.2rem;
+background: url(https://media.giphy.com/media/zD4ilw8CStDry/giphy.gif);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+outline: 0px;
+outline:0px;
+color:white;
+outline: none !important;
+box-shadow: none !important;
+
+  }
+  .button1:hover{
+  
+    border:0;
+    color:#8AA899;
+    outline:0px;
+    /* #f29d8f   #ebcab9 */
+  }
+  .button_text{
+    display: flex;
+    justify-self: center; 
+    margin:auto;
+   
+  }
+  .div_insert_data
+  {
+    background-color:#8AA899;
+   
+    
+  }
+  .insert_data_title
+  {
+    text-align: center;
+    -webkit-text-fill-color:transparent;
+  -webkit-text-stroke-color: #F2D349;
+  -webkit-text-stroke-width: .012em;
+  font-weight: 700;
+  font-size: 5rem;
+  background-color:#5C6E58;
+  width:80%;
+padding:50px;
+ letter-spacing: 0.9px;
+
+ 
+
+}
+
+  
+
+
+  .diet_text
+  {
+    font-size: 2rem;
+    text-align: center;
+    margin-top:50px;
+    background-color:#9ED9CCFF;
+    padding:15px;
+    width:50%;
+    margin:auto;
+    margin-top:15px;
+    font-family: 'Cormorant Garamond', serif;
+  }
+  .diet_link
+  {
+    color:black;
+    font-size: 1.3rem;
+    display: block;
+    text-align: center;
+    margin-top:50px;
+    border:1px solid black;
+    width:30%;
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    margin-top:50px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+   
+  }
+.diet_link:hover{
+background-color:#9ED9CCFF;
+color:white;
+}
+
+
+  .diet_img
+  {
+    width:50%;
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:50px;
+  }
+  .dietblog
+  {
+   padding-top:50px;
+   background-color: #9ba199;
+    
+  }
+  .dietblo_sub
+  {
+   
+    padding-top: 50px;
+    margin-top:100px;
+    
+   margin-left:20px;
+   margin-right:20px;
+    background-image: url("https://elenabrower.com/wp-content/uploads/2015/11/melaluca_adj.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  padding-bottom:40px;
+  
+  }
+  .link_exercies_route
+  {
+ 
+    position:fixed;
+
+color:white;
+margin-left:10px;
+margin-top:100px;
+padding:10px;
+background-color:#D48166;
+
+
+
+
+
+;}
+  .path_links{
+
+    text-decoration: none;
+    color:white;
+    font-size: 1.2rem;
+  display: block;
+  margin-top:0;
+  padding:10px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: lighter;
+  text-align: center;
+  
+  }
+  .path_links:hover{
+    background-color:#fffbf0;
+    color:black;
+  }
+
+  .chest_data_div_1
+  {
+    padding-top:100px;
+    background-color:#943d24;
+    
+  }
+  .chest_data_div_inner{
+    margin-left:50px;
+    margin-right:50px;
+    margin-top:50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:#fffbf0;
+ 
+   
+  }
+
+
+  .chest_data_div_img{
+    width: 80%;
+    display: flex;
+  margin:auto;
+    margin-top:50px;
+  }
+
+  .chest_data_div_p{
+    font-size: 1.5rem;
+    padding-bottom:30px;
+   margin-right:10px;
+   font-family: 'Cormorant Garamond', serif;
+  }
+  .chest_data_div_p_last
+  { font-size: 1.5rem;
+    padding-bottom:100px;
+    font-family: 'Cormorant Garamond', serif;
+   
+  }
+  .chest_data_div_plast{
+    font-size: 1.5rem;
+    padding-bottom:30px;
+    margin-right:10px;
+   font-family: 'Cormorant Garamond', serif;
+   margin-bottom:30px;
+  }
+
+  .chest_data_div_text{
+    padding:30px;
+    padding:50px;
+    align-items: left;
+    padding-left:0px;
+   
+    /* font-family: 'Italianno', cursive; */
+    font-size:3rem;
+
+  
+    -webkit-text-fill-color:transparent;
+    -webkit-text-stroke-color: #943d24;
+    -webkit-text-stroke-width: .029em;
+    font-weight: 700;
+    
+  }
+
+  .span_
+  {
+    border:1px solid #aa945f;
+    margin-right:10px;
+    padding:5px;
+    margin:10px;
+    margin-left:0px;
+    font-weight: bolder;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+
+
+  p{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5rem;
+    word-spacing: 0.2rem;
+  }
+ 
+
+  .last_container
+  {
+    background-image: url("https://images.unsplash.com/photo-1562771242-a02d9090c90c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80");
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 1px solid white;
+
+}
+ .contact
+ {
+   padding-top:70px;
+   color:white;
+   text-align: center;
+   
+   -webkit-text-fill-color:transparent;
+   -webkit-text-stroke-color: white;
+   -webkit-text-stroke-width: .029em;
+   font-weight: 700;
+   font-size: 3rem;
+   
+   
+ }
+  .last_conatiner_p{
+    padding:30px;
+    color:white;
+    text-align: center;
+    
+  }
+  .last_conatiner_p_last{
+
+    color:white;
+    text-align: center;
+padding-bottom:100px;
+margin-bottom: 0px;
+
+  }
+ 
+ .insert_data_img
+ {
+   width:15%;
+ }
+
+
+ .card_img{
+   width:55px;
+   margin-right:15px;
+ }
+ .card_text
+ {
+   color:#5f3728;
+   
+   margin-top:50px;
+ 
+  margin-left:50px;
+  
+ }
+
+.delete_data_from_database
+ {
+width:40%;
+border:1px solid #aa945f;
+font-family: 'Cormorant Garamond', serif;
+background-color:#D48166;
+margin-bottom:50px;
+padding:2px;
+color:black;
+font-size: 1.2rem;
+outline:0px;
+outline: none !important;
+box-shadow: none !important;
+
+ }
+
+ .delete_data_from_database:hover{
+   background-color:white;
+   color:black;
+   outline:0px;
+ }
+  
+ @media only screen and (max-width:660px)
+ {
+   
+ .card_img
+ {
+   width:15%;
+ }
+ 
+ }
+
+
+.editbtn
+{
+  outline:0px;
+  width:40%;
+  border:1px solid #aa945f;
+  font-family: 'Cormorant Garamond', serif;
+  background-color:#D48166;
+  margin-bottom:50px;
+  padding:2px;
+  color:black;
+  font-size: 1.2rem;
+  display: block;
+  outline: none !important;
+  box-shadow: none !important;
+  
+}
+.editbtn:hover{
+  background-color:white;
+  color:black;
+  outline:0px;
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.edituserinput
+{
+  display: block;
+  display: block;
+  color:black;
+  margin-bottom:50px;
+  
+   margin-right:auto;
+   width:60%;
+ 
+   text-align: center;
+height:35px;
+border: 0px;
+font-family: 'Cormorant Garamond', serif;
+font-size: 1.2rem;
+letter-spacing: 0.2rem;
+
+
+}
+.editbutton
+{
+  width:40%;
+  border:1px solid #aa945f;
+  font-family: 'Cormorant Garamond', serif;
+  background-color:#D48166;
+  margin-bottom:50px;
+  padding:2px;
+  color:black;
+  font-size: 1.2rem;
+  display: block;
+  outline:0px;
+  outline: none !important;
+box-shadow: none !important;
+
+}
+.editbutton:hover{
+  background-color:white;
+  color:black;
+  outline:0px;
+}
+
+
+/* popup on insert data page */
+
+.set_popupdiv
+{
+  width:30%;
+  background-image: url("https://media2.giphy.com/media/4bjIKBOWUnVPICCzJc/giphy.gif?cid=ecf05e47eachzgqops9tgfqo3jdy4ag5dg0nc5q4bm53phcb&rid=giphy.gif&ct=g");
+padding:100px;
+position:absolute;
+top:600px;
+left:35%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+border:2px solid  #943d24 ; 
+border-radius: 50px 1px ; 
+
+}
+.closebtn
+{
+  border:0px;
+  background-color:#5C6E58;
+  color:white;
+  position: absolute;
+ top:1px;
+ right:1px;
+
+}
+.closebtn:hover{
+ background-color:#183330;
+ border: 0px;
+}
+
+.popup_data
+{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bolder;
+  color:#F2D349;
+  background: url(https://i.gifer.com/7Pv.gif);
+  background-size: cover;
+  -webkit-background-clip: text;
+  color: transparent;
+
+}
+
+.bmi_calculator
+{
+  padding-top:100px;
+background-color:#5C6E58;
+ padding-bottom:110px;
+}
+
+.label
+{
+ text-align: center;
+margin-top:100px;
+
+-webkit-text-fill-color:transparent;
+-webkit-text-stroke-color: #fce181;
+-webkit-text-stroke-width: .040em;
+font-weight: 700;
+font-size: 2rem;
+
+
+}
+
+.submit_bmi
+{
+  width:29%;
+  
+  font-family: 'Cormorant Garamond', serif;
+ border:0px;
+  margin-bottom:50px;
+  padding:5px;
+  color:white;
+  font-size: 1.2rem;
+  display: block;
+  outline:0px;
+  margin:auto;
+  background: url(https://media.giphy.com/media/zD4ilw8CStDry/giphy.gif);
+  background-size: cover;
+ 
+ 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  outline:0px;
+  outline: none !important;
+box-shadow: none !important;
+
+}
+.submit_bmi:hover{
+  background-color:#66fcf1;
+  color:#F2D349;
+  outline:0px;
+}
+
+.bmi_report
+{
+  color:#fce181;
+  font-family: 'Cormorant Garamond', serif;
+  text-align: center;
+  margin-top:20px;
+}
+
+.final_bmi
+{
+  -webkit-text-fill-color:#fce181;
+-webkit-text-stroke-color: #fce181;
+-webkit-text-stroke-width: .040em;
+font-weight: 700;
+font-size: 2rem;
+margin-top:20px;
+text-align: center;
+letter-spacing:2px;
+}
+.bmi_final_report
+{
+  -webkit-text-fill-color:transparent;
+  -webkit-text-stroke-color:  #66fcf1;
+
+margin:10px;
+letter-spacing:8px;
+padding:5px;
+
+}
+
+.edith3tag
+{
+ 
+  margin-right: 10px;
+  padding: 5px;
+  margin: 10px;
+  margin-left: 0px;
+  font-weight: bolder;
+  font-family: 'Nunito Sans', sans-serif; 
+  text-align: left;
+}
+
+
+.insert_data_title_1
+{
+  background-color:black;
+  -webkit-text-fill-color:#66fcf1;
+  -webkit-text-stroke-color:  #66fcf1;
+  letter-spacing: 0.9px;
+}
+.insert_data_img1
+{
+  margin-right:50px;
+}
+
+
+@media only screen and (max-width: 1300px)
+{
+  .insert_data_title_1
+  {
+    font-size: 4rem;
+  }
+  .insert_data_title
+  {
+    font-size: 4rem;
+  }
+
+ 
+
+
+}
+@media only screen and (max-width: 1080px)
+{
+  
+  .diet_text
+  {
+    font-size: 2rem;
+    text-align: center;
+    margin-top:50px;
+    background-color:#9ED9CCFF;
+    padding:15px;
+    width:90%;
+    margin:auto;
+    margin-top:15px;
+    font-family: 'Cormorant Garamond', serif;
+  }
+  .diet_link
+  {
+    color:black;
+    font-size: 1.3rem;
+    display: block;
+    text-align: center;
+    margin-top:50px;
+    border:1px solid black;
+    width:30%;
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    margin-top:50px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+  
+
+  }
+.diet_link:hover{
+background-color:#9ED9CCFF;
+color:white;
+}
+
+
+  .diet_img
+  {
+    width:80%;
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:50px;
+  }
+  .dietblog
+  {
+   
+  background-color: #9ba199;
+    
+  }
+  .dietblo_sub
+  {
+   
+    
+    background-image: url("https://elenabrower.com/wp-content/uploads/2015/11/melaluca_adj.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  padding-bottom:40px;
+  
+  }
+  .set_popupdiv
+{
+  width:50%;
+  background-image: url("https://media2.giphy.com/media/4bjIKBOWUnVPICCzJc/giphy.gif?cid=ecf05e47eachzgqops9tgfqo3jdy4ag5dg0nc5q4bm53phcb&rid=giphy.gif&ct=g");
+padding:100px;
+position:absolute;
+top:600px;
+left:25%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+border:2px solid  #943d24 ; 
+border-radius: 50px 1px ; 
+
+}
+  .insert_data_title_1
+  {
+    font-size: 2rem;
+  }
+  .insert_data_title
+  {
+    font-size: 2rem;
+  }
+  .insert_data_img1
+{
+  width:35%;
+ 
+}
+.insert_data_img
+{
+  width:20%;
+  margin:10px;
+ 
+}
+}
+@media only screen and (max-width: 700px)
+{
+  .insert_data_title_1
+  {
+    font-size: 2rem;
+  }
+  .insert_data_img1
+  {
+    width:35%;
+    display:block;
+  margin:auto;
+  margin-bottom:10px;
+   
+  }
+}
+@media only screen and (max-width: 950px)
+{
+  .chest_data_div_inner{
+    margin-left:50px;
+    margin-right:50px;
+    margin-top:50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color:#fffbf0;
+ 
+   
+  }
+  .chest_data_div_text{
+   display: block;
+    text-align: center;
+    
+   
+    /* font-family: 'Italianno', cursive; */
+    font-size:3rem;
+
+  
+    -webkit-text-fill-color:transparent;
+    -webkit-text-stroke-color: #943d24;
+    -webkit-text-stroke-width: .029em;
+    font-weight: 700;
+    
+  }
+  .chest_data_div_p{
+    font-size: 1.5rem;
+    padding-bottom:30px;
+   margin-right:10px;
+   margin-left:10px;
+   font-family: 'Cormorant Garamond', serif;
+  }
+  .chest_data_div_p_last
+  { font-size: 1.5rem;
+    padding-bottom:100px;
+    font-family: 'Cormorant Garamond', serif;
+   
+  }
+  .chest_data_div_plast{
+    font-size: 1.5rem;
+    padding-bottom:30px;
+    margin-right:10px;
+    margin-left:10px;
+   font-family: 'Cormorant Garamond', serif;
+   margin-bottom:30px;
+  }
+
+ 
+  .delete_data_from_database
+  {
+ width:40%;
+ border:1px solid #aa945f;
+ font-family: 'Cormorant Garamond', serif;
+ background-color:#D48166;
+ margin-bottom:50px;
+ padding:2px;
+ color:black;
+ font-size: 1.2rem;
+ outline:0px;
+ display: flex;
+ justify-content: center;
+ margin:auto;
+ margin-bottom:30px;
+ outline: none !important;
+box-shadow: none !important;
+
+  }
+.editbtn
+{
+margin:auto;
+margin-bottom:50px;
+outline: none !important;
+box-shadow: none !important;
+
+}
+.edith3tag
+{
+  text-align: center;
+}
+.edituserinput
+{
+  display: block;
+  display: block;
+  color:black;
+  margin-bottom:50px;
+  
+   margin-right:auto;
+   margin-left:auto;
+   width:60%;
+ 
+   text-align: center;
+height:35px;
+border: 0px;
+font-family: 'Cormorant Garamond', serif;
+font-size: 1.2rem;
+letter-spacing: 0.2rem;
+}
+.editbutton
+{
+margin:auto;
+margin-bottom:50px;
+outline: none !important;
+box-shadow: none !important;
+
+}
+}
+
+@media only screen and (max-width: 600px)
+{
+  .set_popupdiv
+{
+  width:80%;
+  background-image: url("https://media2.giphy.com/media/4bjIKBOWUnVPICCzJc/giphy.gif?cid=ecf05e47eachzgqops9tgfqo3jdy4ag5dg0nc5q4bm53phcb&rid=giphy.gif&ct=g");
+padding:100px;
+position:absolute;
+top:600px;
+left:10%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+border:2px solid  #943d24 ; 
+border-radius: 50px 1px ; 
+
+}
+
+  .chest_data_div_inner{
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color:#fffbf0;
+ 
+   
+  }
+  .chest_data_div_text{
+  display: block;
+  text-align: center;
+    font-size:2rem;
+    margin:0px;
+    padding:0px;
+    padding:30px;
+
+  
+    -webkit-text-fill-color:transparent;
+    -webkit-text-stroke-color: #943d24;
+    -webkit-text-stroke-width: .029em;
+    font-weight: 700;
+    
+  }
+  .chest_data_div_p{
+    font-size: 1.1rem;
+    padding-bottom:30px;
+   margin-right:10px;
+   margin-left:10px;
+   font-family: 'Cormorant Garamond', serif;
+  }
+  .chest_data_div_p_last
+  { font-size: 1.5rem;
+    padding-bottom:100px;
+    font-family: 'Cormorant Garamond', serif;
+   
+  }
+  .chest_data_div_plast{
+    font-size: 1.2rem;
+    padding-bottom:30px;
+    margin-right:10px;
+    margin-left:10px;
+   font-family: 'Cormorant Garamond', serif;
+   margin-bottom:30px;
+  }
+
+  .delete_data_from_database
+  {
+ width:40%;
+ border:1px solid #aa945f;
+ font-family: 'Cormorant Garamond', serif;
+ background-color:#D48166;
+ margin-bottom:50px;
+ padding:2px;
+ color:black;
+ font-size: 1.2rem;
+ outline:0px;
+ display: flex;
+ justify-content: center;
+ margin:auto;
+ margin-bottom:30px;
+ outline: none !important;
+box-shadow: none !important;
+
+  }
+.editbtn
+{
+margin:auto;
+margin-bottom:50px;
+outline: none !important;
+box-shadow: none !important;
+
+}
+.edith3tag
+{
+  text-align: center;
+  font-size: 1.5rem;
+}
+.edituserinput
+{
+  display: block;
+  display: block;
+  color:black;
+  margin-bottom:50px;
+  
+   margin-right:auto;
+   margin-left:auto;
+   width:60%;
+ 
+   text-align: center;
+height:35px;
+border: 0px;
+font-family: 'Cormorant Garamond', serif;
+font-size: 1rem;
+letter-spacing: 0.2rem;
+}
+.editbutton
+{
+margin:auto;
+margin-bottom:50px;
+outline: none !important;
+box-shadow: none !important;
+
+}
+}
+
+
+.gym_btn
+{
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  margin-top:70px; 
+  position: fixed;
+border:1px solid  #D48166;
+margin-left:20px;
+font-family: 'Cormorant Garamond', serif;
+background: url(https://i.gifer.com/7Pv.gif);
+background-size: cover;
+-webkit-background-clip: text;
+color: transparent;
+outline:0px;
+outline: none !important;
+box-shadow: none !important;
+
+}
+.gym_btn:hover{
+ 
+  border:1px solid  #D48166;
+  background: url(https://media.giphy.com/media/zD4ilw8CStDry/giphy.gif);
+  background-size: cover;
+  -webkit-background-clip: text;
+  color: transparent;
+  outline:0px;
+ 
+
+}
