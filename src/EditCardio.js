@@ -7,6 +7,7 @@ export function EditCardio({ id, username, userpic, description, steps, Tips, Ca
   const [descriptions, setdes] = useState(description);
   const [step, setsteps] = useState(steps);
   const [Tip, setTips] = useState(Tips);
+  const [save,setsave] = useState(true)
   const editu = () => {
 
     fetch("https://capstoneproject1299.herokuapp.com/Cardioupdate/" + id, {
@@ -24,7 +25,7 @@ export function EditCardio({ id, username, userpic, description, steps, Tips, Ca
       })
     }).then(() => Cardiodata());
     console.log("done");
-
+    setsave(!save)
   };
   return (
     <div className="App">
@@ -45,26 +46,10 @@ export function EditCardio({ id, username, userpic, description, steps, Tips, Ca
           placeholder="Enter your pic url" />
         <h3 className="edith3tag">description</h3>
 
-        <input
-          className="edituserinput"
-          value={descriptions}
-          onChange={(event) => setdes(event.target.value)}
-          placeholder="Enter your description" />
-       <h3 className="edith3tag">Steps</h3>
-        <input
-          className="edituserinput"
-          value={step}
-          onChange={(event) => setsteps(event.target.value)}
-          placeholder="Enter your pic url" />
-           <h3 className="edith3tag">Tips</h3>
-        <input
-          className="edituserinput"
-          value={Tip}
-          onChange={(event) => setTips(event.target.value)}
-          placeholder="Enter your pic url" />
+        
         <button className="editbutton" onClick={editu}>
-        Save Changes
-        </button>
+      Save Changes
+        </button> 
       </div>
 
 

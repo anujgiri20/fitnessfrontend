@@ -7,6 +7,7 @@ export function EditBicep({ id, username, userpic, description, steps, Tips, bic
   const [descriptions, setdes] = useState(description);
   const [step, setsteps] = useState(steps);
   const [Tip, setTips] = useState(Tips);
+  const [save,setsave] = useState(true)
   const editu = () => {
 
     fetch("https://capstoneproject1299.herokuapp.com/bicepsupdate/" + id, {
@@ -24,7 +25,7 @@ export function EditBicep({ id, username, userpic, description, steps, Tips, bic
       })
     }).then(() => bicepsdata());
     console.log("done");
-
+    setsave(!save)
   };
   return (
     <div className="App">
@@ -75,7 +76,7 @@ export function EditBicep({ id, username, userpic, description, steps, Tips, bic
           placeholder="Enter your pic url" />
         <button className="editbutton" onClick={editu}>
         Save Changes
-        </button>
+        </button> 
       </div>
 
 

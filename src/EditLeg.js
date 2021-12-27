@@ -7,6 +7,7 @@ export function EditLeg({ id, username, userpic, description, steps, Tips, legda
   const [descriptions, setdes] = useState(description);
   const [step, setsteps] = useState(steps);
   const [Tip, setTips] = useState(Tips);
+  const [save,setsave] = useState(true)
   const editu = () => {
 
     fetch("https://capstoneproject1299.herokuapp.com/Legsupdate/" + id, {
@@ -24,7 +25,7 @@ export function EditLeg({ id, username, userpic, description, steps, Tips, legda
       })
     }).then(() => legdata());
     console.log("done");
-
+    setsave(!save)
   };
   return (
     <div className="App">
@@ -63,9 +64,9 @@ export function EditLeg({ id, username, userpic, description, steps, Tips, legda
           value={Tip}
           onChange={(event) => setTips(event.target.value)}
           placeholder="Enter your pic url" />
-        <button className="editbutton" onClick={editu}>
-        Save Changes
-        </button>
+      <button className="editbutton" onClick={editu}>
+         Save Changes
+        </button> 
       </div>
 
 

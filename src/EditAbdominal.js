@@ -7,6 +7,7 @@ export function EditAbdominal({ id, username, userpic, description, steps, Tips,
   const [descriptions, setdes] = useState(description);
   const [step, setsteps] = useState(steps);
   const [Tip, setTips] = useState(Tips);
+  const [save,setsave] = useState(true)
   const editu = () => {
 
     fetch("https://capstoneproject1299.herokuapp.com/Abdominalupdate/" + id, {
@@ -24,7 +25,7 @@ export function EditAbdominal({ id, username, userpic, description, steps, Tips,
       })
     }).then(() => Abdominaldata());
     console.log("done");
-
+setsave(!save)
   };
   return (
     <div className="App">
@@ -61,9 +62,10 @@ export function EditAbdominal({ id, username, userpic, description, steps, Tips,
           value={Tip}
           onChange={(event) => setTips(event.target.value)}
           placeholder="Enter your pic url" />
+   
         <button className="editbutton" onClick={editu}>
-          Save Changes
-        </button>
+        Save Changes
+        </button> 
       </div>
 
 

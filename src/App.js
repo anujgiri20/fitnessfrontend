@@ -26,15 +26,23 @@ import { EditLeg } from './EditLeg';
 import { EditCombined } from './EditCombined';
 import { EditCardio } from './EditCardio';
 import {EditAbdominal} from "./EditAbdominal"
-// import {Insert} from "./insertdata";
+import styled from "styled-components";
+import HighlightIcon from "@material-ui/icons/Highlight";
+// import {Insert} from "./insertda
 
 function App() {
-
+  const [toggle, toggleNav] = useState(false);
   const [navbar, setnavbar] = useState(false)
 
 
   return (
     <>
+  <div>
+ 
+
+
+
+  </div>
       <div className="navbar">
 
         <div className="navbar_title">
@@ -185,6 +193,9 @@ const [gym,setgym] = useState(true)
 
   return (
     <>
+
+    
+
     <div >
       <div>
       <button className="gym_btn" onClick={()=>setgym(!gym)}>{gym ? "close bar " : "open bar"}</button>
